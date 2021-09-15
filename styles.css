@@ -1,0 +1,97 @@
+
+body {
+    color: #414141;               /* Dark gray */
+    background-color: #aaa9a9;    /* Light gray */
+  }
+  a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  a:visited {
+    color: purple;
+  }
+  a:hover {
+    color: aqua;
+    text-decoration: underline;
+  }
+  a:visited:hover {
+    color: orange;
+  }
+  a:active {
+    color: red;
+  }
+  a:visited:active {
+    color: red;
+  }
+.button:link,
+.button:visited {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #5995DA;    /* Blue */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;    /* Dark gray */
+    border-radius: 5px;
+  
+    width: 200px;
+    margin: 20px auto;
+  }
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+}
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;  /* Blue */
+}
+  .page {
+    width: 600px;
+    margin: 0 auto;
+  }
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #EEB75A;     /* Yellow */
+}
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;     /* Light yellow */
+}
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #EEB75A;     /* Yellow */
+}
+#button-2 {
+    color: #5D6063;  /* Dark gray */
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(11, 97, 3);
+  }
+  
+  ul li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  ul li:last-child {
+    border-right: none;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
