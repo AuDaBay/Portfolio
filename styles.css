@@ -1,7 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
 
-body {
-    color: #414141;               /* Dark gray */
-    background-color: #aaa9a9;    /* Light gray */
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+}
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+.links {  
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: left;
+}
+.header {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  display: flex;
+}
+header:p {
+ display: flex;
+ flex: 1;
+
+}
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.photo-grid-item {
+  border: 1px solid rgb(88, 135, 236);
+  width: 400px;
+  height: 300px;
+}
+.photo-grid-item:p {
+  display:flex;
+}
+.photo-grid-item:ol {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
   }
   a:link {
     color: blue;
@@ -48,10 +133,7 @@ body {
   color: #FFF;
   background-color: #5995DA;  /* Blue */
 }
-  .page {
-    width: 600px;
-    margin: 0 auto;
-  }
+
 .call-to-action:link,
 .call-to-action:visited {
   font-style: italic;
@@ -95,3 +177,16 @@ body {
   li a:hover {
     background-color: #111;
   }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: #0d4f9b;
+    height: 200px;
+    flex: 1;
+  }
+
